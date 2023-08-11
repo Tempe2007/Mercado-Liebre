@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 55px;
+}
+
+.formularios{
+    font-size: 20px;
+    width: fit-content;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 15px;
+}
+
+#nombre-usuario, #contraseña, #submit-reset{
+    height: 30px;
+    margin-bottom: 10px;
+    border: 0 solid white;
+    border-radius: 4px;
+    background-color: #ebebeb;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 55px;
+}
